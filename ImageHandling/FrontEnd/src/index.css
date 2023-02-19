@@ -1,0 +1,263 @@
+.signin-page,
+.login-page {
+  text-align: center;
+  margin: auto;
+  margin-top: 20vh;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.signin-page {
+  margin-top: 10vh !important;
+}
+
+.signin-box h1 {
+  margin-bottom: 20px !important;
+}
+
+.signin-box h1,
+.login-box h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(21, 115, 253);
+}
+
+.login-box h1 {
+  margin-bottom: 50px !important;
+}
+.signin-box,
+.login-box {
+  padding: 30px !important;
+}
+
+.signin-page input,
+.login-page input {
+  display: block !important;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px !important;
+  background-color: rgb(172, 244, 248);
+  font-weight: bolder;
+  width: 80% !important;
+  margin: auto;
+  margin-bottom: 10px !important ;
+  padding-left: 20px !important;
+}
+
+.signin-page input::placeholder,
+.login-page input::placeholder {
+  padding-left: 20px !important;
+}
+
+.signin-page button,
+.signin-page button {
+  display: block !important;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px !important;
+  font-size: 20px !important;
+  width: 80% !important;
+  margin: auto;
+  margin-bottom: 20px !important ;
+}
+
+.signin-page #visiblePassword,
+.login-page #visiblePassword {
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 110px;
+}
+
+.registration-success {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 50vw;
+  margin: 30vh auto;
+}
+
+/* Home Page */
+
+body{
+  padding-bottom: 30px;
+  font-family: 'Sansita Swashed', cursive;
+  background-color: #eff7b0 !important;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  margin: 0px;
+  
+  /* background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png"); */
+}
+
+#heading-bar{
+  color: white;
+  display: inline-block !important;
+}
+
+.iconSize{
+  margin-top: -15px;
+  margin-left:10px;
+  zoom: 130%;
+}
+
+.timebar{
+  margin-left: 80vw;
+  margin-top: -40px;
+  color: white !important;
+}
+
+.task-box {
+  background-color: white;
+  box-shadow: 0 2px 5px white;
+  border-radius: 10px;
+}
+
+.title-class {
+  border: 0px !important;
+  font-weight: bold;
+  width: 100%;
+  font-size: 25px;
+  font-family:'Arima Madurai', cursive;
+  font-weight: bold;
+}
+
+#content-id {
+  border: 0px !important;
+  width: 100%;
+  font-family:'Arima Madurai', cursive;
+  font-size: 20px;
+}
+
+.task-heading{
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Arima Madurai', cursive;
+}
+
+.inner-add-btn{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  left: 65vw;
+  /* font-size: 30px !important;
+  padding-top: -3px !important; */
+}
+
+.task-card{
+  border-radius: 20px;
+}
+
+.task-content{
+  font-family:'Arima Madurai', cursive;
+  font-size: 20px;
+}
+
+.button-delete{
+  position: relative;
+  left: 80%;
+  top: -4vh;
+}
+
+.button{
+  position: relative;
+  top: 10px;
+  left: 80%;
+  color: rgb(252, 252, 252) !important; 
+}
+
+.button-bold{
+  position: relative;
+  top: 50px;
+  left: 60%;
+}
+
+textarea {
+  resize: none !important;
+  width: 30vw;
+  
+}
+
+textarea:focus,
+.title-class {
+  outline: 0;
+}
+
+
+.delete-heading{
+  width: 50%;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-family:'Arima Madurai', cursive;
+  font-weight: bolder;
+}
+
+.delete-section-card{
+  border-radius: 20px;
+}
+
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  
+}
+
+.signup-box {
+  width: 70%;
+  margin: auto;
+  margin-top: 20%;
+  background-color:  #0f314e31;
+  border: 1px solid #0f314e;
+  border-radius: 30px;
+}
+
+.signuppage-content {
+  margin-top: 20%;
+  margin-left: 20%;
+  color: white;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0f314e4e;
+  border: 0px !important;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  box-shadow:0px 0px 20px 0px black;
+}
+
+.input-box:focus{
+    outline: none;
+    border-bottom: 2px solid white !important;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    content: "";
+}
+
+.input-box::placeholder {
+    color: rgba(255, 255, 255, 0.866);
+    font-family: cursive;
+    /* text-align: center; */
+    padding-left: 20px !important;
+}
+
+.button-box {
+  text-align: center;
+}
+
+#pwd::after {
+  content: "Password is mandatory";
+}
+
+.logout-icon{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  font-size: 25px;
+  color: white !important;
+}
+
+/* Home Page */

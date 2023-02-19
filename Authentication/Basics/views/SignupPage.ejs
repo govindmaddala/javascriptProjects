@@ -1,0 +1,46 @@
+<%-include("header")-%>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="signuppage-content">
+                    <h1>MySite</h1>
+                    <p>This is caption</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="signup-box shadow-lg">
+                    <form action="/home" method="post">
+                        <div class="d-flex flex-column justify-content-center p-5">
+                            <div>
+                                <input class="input-box" type="text" id="fname" name="fname"
+                                    placeholder="  First Name*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="text" name='lname' id="lname" placeholder="  Last Name*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="email" name='mailID' id="email"
+                                    placeholder="  Email Address*" >
+                            </div>
+                            <div>
+                                <input class="input-box" type="password" name='password' id="pwd"
+                                    placeholder="  Password*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="password" name='cpassword' id="cpwd"
+                                    placeholder="  Confirm password*">
+                            </div>
+                            <div class="button-box">
+                                <button type="submit" class="signup-button btn btn-primary">Sign-Up</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%-include("footer")-%>

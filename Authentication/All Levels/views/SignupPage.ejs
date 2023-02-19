@@ -1,0 +1,74 @@
+<%-include("header")-%>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-12 text-center">
+                <div class="d-flex flex-column p-5 other-signup-box text-white shadow-lg pt-4">
+                    <div class="brand-box shadow-lg">
+                        <h1>Notes Keeper</h1>
+                        <p>Thoughts are seeds for your better future</p>
+                    </div>
+                    <div>
+                        <p>Login with your account</p>
+                        <a class="btn btn-primary mb-2" href="/login" role="button">
+                            Login
+                        </a>
+                    </div>
+                    <div>
+                        <p>Signup with social accounts</p>
+                        <a class="btn btn-block btn-social btn-facebook mb-2" href="/auth/facebook" role="button">
+                            <i class="fab fa-facebook"></i>
+                            Sign Up with Facebook
+                        </a>
+                        <div>
+                            <a class="btn btn-block btn-social btn-google mb-2" href="/auth/google" role="button">
+                                <i class="fab fa-google"></i>
+                                Sign Up with Google
+                            </a>
+                        </div>
+                        <a class="btn btn-block btn-social btn-twitter mb-2" href="/auth/twitter" role="button">
+                            <i class="fab fa-twitter"></i>
+                            Sign Up with Twitter
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="signup-box shadow-lg">
+                    <div class="d-flex flex-column justify-content-center p-5">
+                        <form action="/signup" method="post">
+                            <div>
+                                <input class="input-box" type="text" id="fname" name="fname"
+                                    placeholder="  First Name*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="text" name='lname' id="lname" placeholder="  Last Name*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="email" name='username' id="email"
+                                    placeholder="  Email Address*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="password" name='password' id="pwd"
+                                    placeholder="  Password*">
+                            </div>
+                            <div>
+                                <input class="input-box" type="password" name='cpassword' id="cpwd"
+                                    placeholder="  Confirm password*">
+                            </div>
+                            <div class="button-box">
+                                <button type="submit" class="signup-button btn btn-primary">Sign-Up</button>
+                            </div>
+                        </form>
+                        <!-- <hr class="signup-hr"> -->
+
+                    </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%-include("footer")-%>

@@ -1,0 +1,15 @@
+app.get('/', (req, res) => {
+    const options = {
+        headers: {
+            'X-RapidAPI-Key': 'afe1b6a258msh016ce42baace71cp17181bjsn8e56182799d7',
+            'X-RapidAPI-Host': 'free-nba.p.rapidapi.com'
+        }
+    };
+    http.get("https://free-nba.p.rapidapi.com/players", options,
+        async (response) => {
+            response.on('data', (data) => {
+                const dataGot = JSON.parse(data);
+                return res.status(200).json({ success: true, message: dataGot })
+            })
+        })
+})

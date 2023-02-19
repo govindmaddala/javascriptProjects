@@ -1,0 +1,19 @@
+<%-include('header')-%>
+    <div class="bg-warning text-white">
+        <h1>
+            Welcome Home
+        </h1>
+        
+    </div>
+    <div class="text-center">
+        <form action="/mytasks" method="post">
+            <input type="date" name="date" id="">
+            <input type="text" name="title">
+            <input type="text" name="content">
+            <button type="submit">Submit</button>
+        </form>
+        <form action="/logout" method="post">
+            <button class="btn btn-primary">Logout</button>
+        </form>
+    </div>
+    <%-include('footer')-%>

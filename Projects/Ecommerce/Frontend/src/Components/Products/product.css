@@ -1,0 +1,61 @@
+.productCard {
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.productCard > img {
+  width: 14vmax;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  /* display: flex;
+    justify-content: flex-start; */
+}
+
+.productCard > div > span {
+  margin: 0.5vmax;
+  display: block;
+  font: 200 1vmax "Roboto";
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.9vmax;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600) {
+  .productCard {
+    width: 100vmax;
+  }
+
+  .productCard > p {
+    font-size: 2vmax;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+    font: 200 1vmax "Roboto";
+  }
+}

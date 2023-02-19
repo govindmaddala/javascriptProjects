@@ -1,0 +1,15 @@
+[
+    {
+        "firstName": "firstname",
+        "lastName": "lastname",
+        "address": "street",
+        "city": "city",
+        "state": "state",
+        "zipcode": "123456",
+        "phone": "1234560987",
+        "ssn": "sss-ss-nnnn",
+        "username": "PasswordMismatch",
+        "password": "abcde",
+        "repPassword": "abcd"
+    }
+]

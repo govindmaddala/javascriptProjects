@@ -1,0 +1,30 @@
+const mongoose = require('mongoose');
+
+//Atlas:
+
+const connect = ()=>{
+    mongoose.connect(process.env.MONGO_URI, {}, (err)=>{
+        if (err){
+            console.log(err);
+        }else{
+            console.log("Database is connected");
+        }
+    })
+}
+
+// //Local database:
+// const connect = ()=>{
+//     mongoose.connect(process.env.LOCAL_DB, {}, (err)=>{
+//         if (err){
+//             console.log(err);
+//         }else{
+//             console.log("Database is connected");
+//         }
+//     })
+// }
+module.exports = connect;
+
+
+
+
+http://mynotekeeper.herokuapp.com:3000/verifyEmail?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdvdmluZG12bkBnbWFpbC5jb20iLCJpYXQiOjE2NjU0OTIzMTksImV4cCI6MTY2NjA5NzExOX0.ca8ZpMvmvo8cgD6RwBMMpbvx4_BtrEtvYqmG19SecKQ

@@ -1,0 +1,38 @@
+.navbar {
+  /* margin: 10px 0px !important; */
+  height: 100px !important;
+  /* background-color: aqua !important; */
+}
+
+.logoImage {
+  width: 5vw !important;
+  height: 5vw !important;
+  border-radius: 50% !important;
+}
+
+.searchIcon {
+  margin-left: 20vw !important;
+}
+
+.searchBar {
+  width: 30vw !important;
+}
+
+.cartIcon {
+  width: 40px !important;
+  margin-top: 5px !important;
+  margin-left: 10px !important;
+}
+
+.menuItems {
+  margin-left: 20px !important;
+}
+
+.product-container {
+  width: 100% !important;
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vmax;
+  flex-wrap: wrap;
+  justify-content: center;
+}

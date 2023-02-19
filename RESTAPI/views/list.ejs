@@ -1,0 +1,10 @@
+<%- include("header") -%>
+        <%for(let i=0;i<items.length;i++){%>
+            <div class="item">
+                <p>
+                    <%= items[i].title%> : <%= items[i].content%>
+                </p>
+            </div>
+            <%}%>
+    </ul>
+<%- include("footer") -%>

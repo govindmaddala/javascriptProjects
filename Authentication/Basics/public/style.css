@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png"); */
+  /* background-color: aliceblue; */
+  background-color: #0f314e;
+  animation: marquess 30s infinite linear;
+  background-repeat: repeat;
+}
+
+@keyframes marquee {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -1190px;
+  }
+}
+
+.signup-box {
+  width: 70%;
+  margin: auto;
+  margin-top: 20%;
+  /* background-color: rgba(240, 255, 255, 0.932); */
+  background-color:  #0f314e31;
+  border: 1px solid #0f314e;
+  border-radius: 30px;
+}
+
+.signuppage-content {
+  margin-top: 20%;
+  margin-left: 20%;
+  color: white;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0f314e4e;
+  border: 0px !important;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  box-shadow:0px 0px 20px 0px black;
+}
+
+.input-box:focus{
+    outline: none;
+    border-bottom: 2px solid white !important;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    content: "";
+}
+
+.input-box::placeholder {
+    color: rgba(255, 255, 255, 0.866);
+    font-family: cursive;
+    /* text-align: center; */
+    padding-left: 20px !important;
+}
+
+.button-box {
+  text-align: center;
+}
+
+#pwd::after {
+  content: "Password is mandatory";
+}

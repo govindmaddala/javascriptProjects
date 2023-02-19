@@ -1,0 +1,68 @@
+.banner {
+  background-color: #635dc0;
+  height: 100vmin;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.banner > h1 {
+  margin: 5vmax;
+  font: 200 2.5vmax "Roboto";
+}
+
+.banner > p {
+  margin: 1.5vmax;
+  font: 100 1.5vmax "Roboto";
+}
+
+.banner > a > button {
+  margin-bottom: 5vmax;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  padding: 1vmax;
+  transition: all 0.5s;
+  width: 9vmax;
+  font: bolder 1vmax "Roboto";
+}
+.banner > a > button:hover {
+  background-color: #635dc0;
+  color: white;
+}
+
+.banner::after {
+  content: "";
+  width: 100vw;
+  height: 100vmin;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 100%);
+  max-width: 100%;
+}
+
+.homeheading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 3vmax;
+  margin-top: 1vmax;
+  border-bottom: 1px solid grey;
+  width: 50vmax;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  width: 100% !important;
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vmax;
+  flex-wrap: wrap;
+  justify-content: center;
+}
